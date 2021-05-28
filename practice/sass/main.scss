@@ -1,0 +1,327 @@
+/*********************    FONT STYLE         ******************************/
+
+@font-face {
+  font-family: "display-Regular";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "display-Bold";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "display-Light";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Light-1.ttf");
+}
+@font-face {
+  font-family: "display-Medium";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: "display-semibold";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf");
+}
+
+.font-display-bold{
+  font-family: display-bold ,sans-serif;
+}
+
+.font-family-semibold{
+  font-family: display-semibold, sans-serif;
+}
+
+.font-display-regular{
+  font-family: display-Regular, sans-serif;
+}
+
+
+
+// *****************  color style   **************
+
+
+$color-black: #2F2F2F;
+$color-grey: #7F7F7F;
+$color-grey-sm: #5F5F5F;
+$color-modul: #939394;
+$color-white: #fff;
+
+
+.bglight{
+  background-color: #F8F8FA;
+}
+
+
+
+
+
+
+
+
+html{
+  font-size: 16px;
+
+  body{
+    width: 100%;
+    overflow-x: hidden;
+
+    nav{
+      .container{
+
+        .dropdown{
+          margin-left: 66px;
+          background-color: #FFFFFF;
+        }
+
+        a{
+
+          &:nth-child(2){
+            color: $color-black;
+          }
+        }
+
+      }
+    }
+
+    .container {
+      .line {
+        width: 100%;
+        height: 1px;
+        background-color: #EAEAEA;
+        //margin-top: 30px;margin-bottom: 50px;
+      }
+
+    }
+    header{
+
+      .container{
+        .row{
+
+          .col-8{
+            @media (max-width: 576px) {
+              margin: 0 auto;
+            }
+
+            .card{
+              margin-top: 50px;
+              margin-bottom: 30px;
+
+              .card-header{
+                padding: 8px;
+                box-sizing: border-box;
+
+                h4{
+                  font-family: display-Regular, sans-serif;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16.7px;
+                  margin-top: 8px;
+                  box-sizing: border-box;
+                  margin-left: 15px;
+                }
+                p{
+                  font-family: display-Regular, sans-serif;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 14.3px;
+                  color: #000;
+                  opacity: 0.5;
+                  margin-left: 15px;
+                }
+              }
+
+              .card-footer{
+                padding: 21px 28px;
+                box-sizing: border-box;
+
+                h3{
+                  font-size: 25px;
+                  font-family: display-Regular, sans-serif;
+                  font-weight: 700;
+                  line-height: 35px;
+                  margin-bottom: 20px;
+
+                  @media (max-width: 500px) {
+                    font-size: 18px;
+                  }
+                }
+                .d-flex{
+                  a{
+                    margin-right: 10px;
+                  }
+                  p{
+                    color: $color-grey-sm;
+                    margin-right: 41px;
+                  }
+                }
+
+              }
+            }
+
+            .star{
+              margin-bottom: 36px;
+
+              .d-flex{
+                &:nth-child(1){
+
+                  img{
+                    &:nth-child(1){
+                      margin-right: 5px;
+                    }
+                  }
+                  p{
+                      margin-right: 11px;
+                    font-weight: 600;
+                    font-size: 14px;
+                  }
+                }
+              }
+              .d-flex{
+                &:nth-child(2){
+
+                  img{
+                    &:nth-child(2){
+                      margin-right: 28px;
+                      margin-left: 23px;
+                    }
+                    &:nth-child(4){
+                      margin-left: 15px;
+                    }
+                  }
+                  p{
+                    font-weight: 600;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+
+            .bglight{
+              padding: 16px 28px;
+            }
+            .to-buy{
+              background-color: #63C19C;
+              color: white;
+              padding: 18px 28px;
+            }
+
+          }
+
+          .col-12{
+            margin-bottom: 72px;
+            img{
+              &:first-child{
+                margin-top: 50px;
+                margin-bottom: 40px;
+              }
+            }
+            .text{
+              font-family: display-Regular, sans-serif;
+              font-size: 18px;
+              font-weight: 400;
+              color: #2F2F2F;
+              line-height: 28px;
+              margin-bottom: 60px;
+            }
+            h1{
+              font-weight: 500;
+              font-size: 25px;
+              line-height: 25px;
+              color: #000000;
+              margin-bottom: 14px;
+            }
+
+            .container{
+              .row{
+                .col-12{
+                  ul{
+                    background-color: #F8F8FA;
+                    padding: 12px 30px;
+
+                    li{
+                      a{
+                        color: #939394;
+                      }
+                    }
+                  }
+                  .nav-pills .nav-link.active,
+                  .nav-pills .show > .nav-link {
+                    color: #000000;
+                    background-color: #F8F8FA!important;
+                    border-bottom: 2px solid black!important;
+                  }
+
+                  .tab-content{
+                    .container{
+
+                      h3{
+                        font-family: display-Regular, sans-serif;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                      }
+                      .card{
+
+                        border-left: 4px solid #63C19C;
+
+                        .card-header{
+                          a{
+
+                            .accar{
+                              .d-flex{
+                                h1{
+                                  font-family: display-Regular, sans-serif;
+                                  font-size: 25px;
+                                  font-style: normal;
+                                  font-weight: 500;
+                                  line-height: 25px;
+                                  text-align: center;
+
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    footer{
+      margin-top: 5%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: #F8F8FA;
+      .container{
+        .col-3{
+          @media (min-width: 400px) and (max-width: 768px) {
+            display: none;
+          }
+        }
+        .col-sm-12{
+          .btn1{
+            button{
+              border-radius: 20px;
+            }
+          }
+          .btn2{
+            button{
+              border-radius: 20px;
+            }
+          }
+          .btn3{
+            button{
+              border-radius: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

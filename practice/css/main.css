@@ -1,0 +1,164 @@
+/*********************    FONT STYLE         ******************************/
+@font-face {
+  font-family: "display-Regular";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf"); }
+@font-face {
+  font-family: "display-Bold";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf"); }
+@font-face {
+  font-family: "display-Light";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Light-1.ttf"); }
+@font-face {
+  font-family: "display-Medium";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Medium.ttf"); }
+@font-face {
+  font-family: "display-semibold";
+  src: url("../assets/fonts/FontsFree-Net-SFProDisplay-Semibold.ttf"); }
+.font-display-bold {
+  font-family: display-bold ,sans-serif; }
+
+.font-family-semibold {
+  font-family: display-semibold, sans-serif; }
+
+.font-display-regular {
+  font-family: display-Regular, sans-serif; }
+
+.bglight {
+  background-color: #F8F8FA; }
+
+html {
+  font-size: 16px; }
+  html body {
+    width: 100%;
+    overflow-x: hidden; }
+    html body nav .container .dropdown {
+      margin-left: 66px;
+      background-color: #FFFFFF; }
+    html body nav .container a:nth-child(2) {
+      color: #2F2F2F; }
+    html body .container .line {
+      width: 100%;
+      height: 1px;
+      background-color: #EAEAEA; }
+    @media (max-width: 576px) {
+      html body header .container .row .col-8 {
+        margin: 0 auto; } }
+    html body header .container .row .col-8 .card {
+      margin-top: 50px;
+      margin-bottom: 30px; }
+      html body header .container .row .col-8 .card .card-header {
+        padding: 8px;
+        box-sizing: border-box; }
+        html body header .container .row .col-8 .card .card-header h4 {
+          font-family: display-Regular, sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16.7px;
+          margin-top: 8px;
+          box-sizing: border-box;
+          margin-left: 15px; }
+        html body header .container .row .col-8 .card .card-header p {
+          font-family: display-Regular, sans-serif;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14.3px;
+          color: #000;
+          opacity: 0.5;
+          margin-left: 15px; }
+      html body header .container .row .col-8 .card .card-footer {
+        padding: 21px 28px;
+        box-sizing: border-box; }
+        html body header .container .row .col-8 .card .card-footer h3 {
+          font-size: 25px;
+          font-family: display-Regular, sans-serif;
+          font-weight: 700;
+          line-height: 35px;
+          margin-bottom: 20px; }
+          @media (max-width: 500px) {
+            html body header .container .row .col-8 .card .card-footer h3 {
+              font-size: 18px; } }
+        html body header .container .row .col-8 .card .card-footer .d-flex a {
+          margin-right: 10px; }
+        html body header .container .row .col-8 .card .card-footer .d-flex p {
+          color: #5F5F5F;
+          margin-right: 41px; }
+    html body header .container .row .col-8 .star {
+      margin-bottom: 36px; }
+      html body header .container .row .col-8 .star .d-flex:nth-child(1) img:nth-child(1) {
+        margin-right: 5px; }
+      html body header .container .row .col-8 .star .d-flex:nth-child(1) p {
+        margin-right: 11px;
+        font-weight: 600;
+        font-size: 14px; }
+      html body header .container .row .col-8 .star .d-flex:nth-child(2) img:nth-child(2) {
+        margin-right: 28px;
+        margin-left: 23px; }
+      html body header .container .row .col-8 .star .d-flex:nth-child(2) img:nth-child(4) {
+        margin-left: 15px; }
+      html body header .container .row .col-8 .star .d-flex:nth-child(2) p {
+        font-weight: 600;
+        font-size: 14px; }
+    html body header .container .row .col-8 .bglight {
+      padding: 16px 28px; }
+    html body header .container .row .col-8 .to-buy {
+      background-color: #63C19C;
+      color: white;
+      padding: 18px 28px; }
+    html body header .container .row .col-12 {
+      margin-bottom: 72px; }
+      html body header .container .row .col-12 img:first-child {
+        margin-top: 50px;
+        margin-bottom: 40px; }
+      html body header .container .row .col-12 .text {
+        font-family: display-Regular, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2F2F2F;
+        line-height: 28px;
+        margin-bottom: 60px; }
+      html body header .container .row .col-12 h1 {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 25px;
+        color: #000000;
+        margin-bottom: 14px; }
+      html body header .container .row .col-12 .container .row .col-12 ul {
+        background-color: #F8F8FA;
+        padding: 12px 30px; }
+        html body header .container .row .col-12 .container .row .col-12 ul li a {
+          color: #939394; }
+      html body header .container .row .col-12 .container .row .col-12 .nav-pills .nav-link.active,
+      html body header .container .row .col-12 .container .row .col-12 .nav-pills .show > .nav-link {
+        color: #000000;
+        background-color: #F8F8FA !important;
+        border-bottom: 2px solid black !important; }
+      html body header .container .row .col-12 .container .row .col-12 .tab-content .container h3 {
+        font-family: display-Regular, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px; }
+      html body header .container .row .col-12 .container .row .col-12 .tab-content .container .card {
+        border-left: 4px solid #63C19C; }
+        html body header .container .row .col-12 .container .row .col-12 .tab-content .container .card .card-header a .accar .d-flex h1 {
+          font-family: display-Regular, sans-serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 25px;
+          text-align: center; }
+    html body footer {
+      margin-top: 5%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: #F8F8FA; }
+      @media (min-width: 400px) and (max-width: 768px) {
+        html body footer .container .col-3 {
+          display: none; } }
+      html body footer .container .col-sm-12 .btn1 button {
+        border-radius: 20px; }
+      html body footer .container .col-sm-12 .btn2 button {
+        border-radius: 20px; }
+      html body footer .container .col-sm-12 .btn3 button {
+        border-radius: 20px; }
+
+/*# sourceMappingURL=main.css.map */
